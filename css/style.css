@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #ED1C24;
+    --secondary-color: #262262;
+    --light-color: #fff;
+    --dark-color: #000000;
+    --font-bangla: 'Hind Siliguri', sans-serif;
+    --font-english: 'Poppins', sans-serif;
+}
+
+
+
+/*=== header css ===*/
+#header {
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+    text-align: center;
+    font-family: var(--font-bangla);
+}
+.fa-search{
+    color: var(--dark-color);
+}
