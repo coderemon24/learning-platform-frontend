@@ -23,12 +23,12 @@
 <body>
 <header id="header">
     <!--- navbar start -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container-fluid">
             <a class="navbar-brandr" href="#">
-                <img width="90"  src="./images/logo.png" alt="logo" class="img-fluid">
+                <img width="90"  src="./images/white_logo.png" alt="logo" class="img-fluid">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"  >
                 <span class="material-symbols-outlined">
                     menu_open
                 </span>
@@ -36,24 +36,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link "  href="#">All Courses</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu ">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+                <a class="nav-link" href="#">My Classes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link " >Resources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " >About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " >Become An Instructor</a>
               </li>
             </ul>
             <div class="right">
@@ -63,22 +58,70 @@
           
         </div>
     </nav>
+    
+    <!--- offcanvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header d-flex justify-content-between">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+            <a class="btn-close" data-bs-dismiss="offcanvas" >
+                <span class="cross cr_one"></span>
+                <span class="cross cr_two"></span>
+            </a>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav  mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link "  href="#">All Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">My Classes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " >Resources</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " >About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " >Become An Instructor</a>
+                </li>
+              </ul>
+        </div>
+    </div>
     <!--- navbar end -->
     
     <!--- banner start --->
-    <div class="banner py-5">
+    <div class="banner">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="banner-content">
-                        <h4 class="">আজই শুরু হোক আপনার</h4>
-                        <h1>ইন্টেরিয়র ডিজাইন ক্যারিয়ার</h1>
-                        <p>
+                        <h4 class="subtitle">আজই শুরু হোক আপনার</h4>
+                        <h1 class="title">স্কিল ডেভলপমেন্ট জার্নি</h1>
+                        <p class="text">
                             নিজের স্কিল কে ডেভেলপ করতে এবং নিজেকে সবসময় সবার থেকে এগিয়ে রাখতে এখনই ইনরোল করে ফেলো তোমার পছন্দের কোর্সটি 
                         </p>
-                        <a href="#" class="btn ">
+                        <a href="#" class="btn text-white
+                        border-2 border-white rounded-pill px-4 py-2
+                        ">
                             চলুন শিখা শুরু করি
                         </a>
+                    </div>
+                </div>
+                <div class="col-md-8 ">
+                    <div class="banner-images">
+                        <div class="banner-img img-1">
+                            <img width="300" src="./images/slide-1.webp" alt="banner" class="img-fluid rounded-circle">
+                        </div>
+                        <div class="banner-img img-2">
+                            <img width="150" src="./images/slide-1.webp" alt="banner" class="img-fluid rounded-circle">
+                        </div>
+                        <div class="banner-img img-3">
+                            <img width="200" src="./images/slide-1.webp" alt="banner" class="img-fluid rounded-circle">
+                        </div>
+                        <div class="banner-img img-4">
+                            <img width="150" src="./images/slide-1.webp" alt="banner" class="img-fluid rounded-circle">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -87,6 +130,14 @@
     <!--- banner end --->
 </header>
 
+<br> dfad
+<br> dfad
+<br> dfad
+<br> dfad
+<br> dfad
+<br> dfad
+<br> dfad
+<br> dfad
     
     
     
