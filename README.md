@@ -1,2 +1,2 @@
 <h1>Interior Design Learning Institute</h1>
-<img src="./images/logo.jpg" />
+<img width="100" src="./images/logo.jpg" />
