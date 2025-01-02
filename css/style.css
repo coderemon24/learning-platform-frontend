@@ -146,6 +146,11 @@ h2.section-title {
     border-radius: 50px;
     font-family: var(--font-english);
     font-weight: 500;
+    cursor: pointer;
+    /* transition: all 0.2s; */
+}
+.box_control:hover{
+    border: 2px solid var(--secondary-color);
 }
 .card-body {
     padding-bottom: 2rem;
@@ -168,6 +173,9 @@ h2.section-title {
     text-decoration: none;
     padding: .6rem 1.5rem;
     border-radius: 50px;
+  }
+  .mixitup-control-active {
+    border: 2px solid var(--secondary-color);
   }
 
 
