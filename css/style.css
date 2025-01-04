@@ -192,6 +192,7 @@ h2.section-title {
     text-decoration: none;
     padding: .6rem 1.5rem;
     border-radius: 50px;
+    font-family: var(--font-english);
 }
 
 .mixitup-control-active {
@@ -217,7 +218,52 @@ h2.section-title {
     font-weight: 450;
     color: var(--dark-color);
 }
+/*=== featured courses css ===*/
+#featured-courses {
+    padding: 10rem 0;
+}
+.featured-card {
+    border: none;
+    box-shadow: 3px 3px 8px 0px black;
+    font-family: var(--font-english);
+    border-radius: 10px;
+  }
+.card-title{
+    font-family: var(--font-english);
+    margin-top: 12px;
+    padding-bottom: 12px;
+}
 
+.icon {
+    color: #43bdff;
+    font-size: 1.3rem;
+  }
+  .featured-left-title.text-white {
+    font-weight: 600;
+    font-family: var(--font-english);
+  }
+  .course-title {
+    font-weight: 700;
+    font-size: 2.3rem;
+  }
+  .featured-right {
+    padding-left: 1rem;
+    font-family: var(--font-english);
+    color: white;
+  }
+  .featured-right-content>ul>li {
+    list-style: none;
+    margin-left: -23px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 2rem;
+  }
+  .featured-right-content>ul>li>i {
+    color: #43bdff;
+    font-size: .7rem;
+  }
 
 
 
