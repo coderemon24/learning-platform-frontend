@@ -264,7 +264,62 @@ h2.section-title {
     color: #43bdff;
     font-size: .7rem;
   }
+/*=== seminar css ===*/
+.sm-title {
+    text-align: left !important;
+    padding: 0px !important;
+  }
+  .seminar-subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--font-english);
+  }
 
+  .seminar-day {
+    display: flex;
+    gap: 1rem;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    margin-bottom: 2.5rem;
+  }
+  .date {
+    display: flex;
+    flex-direction: column;
+    background: #262262;
+    color: white;
+    padding: 1rem;
+    line-height: 1;
+    text-align: left;
+    border-radius: 20px;
+    padding-right: 3rem;
+  }
+  .day {
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: var(--font-english);
+  }
+  .month {
+    font-size: 1.2rem;
+    font-family: var(--font-english);
+    font-weight: 500;
+  }
+  .seminar-title {
+    font-weight: 600;
+    font-family: var(--font-english);
+    font-size: 1.3rem;
+  }
+  .seminar-time {
+    font-family: var(--font-english);
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .enroll.seminar-btn {
+    border-radius: 15px !important;
+    padding: .7rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
 
 
 
