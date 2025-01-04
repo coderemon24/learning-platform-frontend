@@ -24,6 +24,14 @@ h2.section-title {
     font-weight: 700;
 }
 
+.section-subtitle {
+    font-family: var(--font-bangla);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
 
 /*=== header css ===*/
 #header {
@@ -52,16 +60,6 @@ h2.section-title {
     font-family: var(--font-english);
 }
 
-.shrink-nav {
-    color: var(--dark-color) !important;
-    top: 0px;
-    background-color: var(--light-color) !important;
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    padding: 2px 0;
-}
-
 /*=== offcanvas ===*/
 #offcanvasRight {
     background-color: var(--secondary-color);
@@ -76,6 +74,18 @@ h2.section-title {
 }
 
 /*=== on scroll shrink nav ===*/
+.shrink-nav {
+    color: var(--dark-color) !important;
+    top: 0px;
+    background-color: var(--light-color) !important;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 2px 0;
+    box-shadow: 0px 0px 10px 2px #0000003d;
+    height: 5rem;
+}
+
 .shrink-nav .navbar-nav>li>a {
     color: var(--dark-color) !important;
     line-height: 24px !important;
@@ -142,44 +152,71 @@ h2.section-title {
 .box_control {
     list-style: none;
     box-shadow: var(--box-shadow);
-    padding: 1rem 2rem;
+    padding: 0.7rem 1.2rem;
     border-radius: 50px;
     font-family: var(--font-english);
     font-weight: 500;
     cursor: pointer;
-    /* transition: all 0.2s; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.box_control:hover{
+
+.box_control:hover {
     border: 2px solid var(--secondary-color);
+    background-color: #26226212;
+    color: var(--secondary-color);
 }
+
 .card-body {
     padding-bottom: 2rem;
 }
+
 .course-box.card {
     box-shadow: var(--box-shadow);
     border-radius: 12px;
     overflow: hidden;
     font-family: var(--font-english);
-    border:none;
-  }
-  .card-title {
+    border: none;
+}
+
+.card-title {
     font-weight: 700;
     font-size: 23px;
     color: var(--secondary-color);
-  }
-  .enroll {
+}
+
+.enroll {
     background: var(--secondary-color);
     color: var(--light-color);
     text-decoration: none;
     padding: .6rem 1.5rem;
     border-radius: 50px;
-  }
-  .mixitup-control-active {
+}
+
+.mixitup-control-active {
     border: 2px solid var(--secondary-color);
-  }
+    background-color: #26226212;
+    color: var(--secondary-color);
+}
 
+/*=== our dream css ===*/
 
+.dream-title {
+    text-align: left !important;
+    font-size: 2rem !important;
+    border-bottom: 2px solid var(--secondary-color);
+    width: 13rem;
+    padding-bottom: 1rem !important;
+    margin-bottom: 1.5rem;
+}
 
+.description {
+    font-size: 14px;
+    font-family: var(--font-bangla);
+    font-weight: 450;
+    color: var(--dark-color);
+}
 
 
 

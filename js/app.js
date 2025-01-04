@@ -4,10 +4,14 @@ $(document).ready(function (){
   $(window).scroll(function(){
     var wscroll = $(this).scrollTop();
     if(wscroll > 50){
-    $(".navbar").addClass("shrink-nav");
+      $(".navbar").addClass("shrink-nav");
+      $(".navbar").find(".white_logo").addClass("d-none");
+      $(".navbar").find(".blue_logo").removeClass("d-none").css("width", "5rem");
     }
     else{
       $(".navbar").removeClass("shrink-nav");
+      $(".navbar").find(".white_logo").removeClass("d-none");
+      $(".navbar").find(".blue_logo").addClass("d-none");
     }
   });
 
