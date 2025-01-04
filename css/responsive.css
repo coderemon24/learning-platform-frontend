@@ -1,0 +1,12 @@
+@media(max-width: 768px) {
+  .teacher-left-content{
+    margin-bottom: 5rem;
+  }
+  .seminar_inner{
+    margin-bottom: 5rem;
+  }
+  .whyus-box{
+    text-align: center;
+    padding: 0rem 1rem;
+  }
+}
