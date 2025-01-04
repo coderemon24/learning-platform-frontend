@@ -319,8 +319,31 @@ h2.section-title {
     font-size: 1.5rem;
     font-weight: 600;
   }
-  
+/*=== join as instructor css ===*/
 
+.teacher-content {
+    color: #fff;
+    width: 93%;
+    padding: 2rem 0;
+  }
+  .section-title.text-left.teacher-title {
+    padding: 0;
+    text-align: left;
+    color: #fff;
+    font-style: italic;
+  }
+  .instructor_inner {
+    padding: 0rem 2rem;
+    display: flex;
+    border-radius: 15px;
+    position: relative;
+  }
+  .teacher-img {
+    margin-top: -89px;
+  }
+  .teacher-img>img {
+    width: 42rem;
+  }
 
 
 
