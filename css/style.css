@@ -59,6 +59,10 @@ h2.section-title {
     font-size: 16px;
     font-family: var(--font-english);
 }
+.nav_menus>li>a , .search_icon>i{
+    color: var(--dark-color) !important;
+}
+
 
 /*=== offcanvas ===*/
 #offcanvasRight {
@@ -479,6 +483,116 @@ h2.section-title {
     color: var(--light-color);
     text-decoration: none;
     line-height: 30px;
+    transition: all .2s linear;
+    position: relative;
+  }
+  .f_menus > ul > li > a:hover {
+    color: rgb(155, 155, 155);
+  }
+  .f_menus>ul>li>a::before {
+    content: "";
+    background: white;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all .2s linear;
+  }
+  .f_menus>ul>li>a:hover::before {
+    width: 100%;
+  }
+  
+/*=== courses page css ===*/
+
+.latest_content.content_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.course_card{
+    border-radius: 20px;
+}
+
+.latest_content.content_left {
+    color: var(--light-color);
+    font-family: var(--font-bangla);
+  }
+  .latest_subtitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .latest_title {
+    font-size: 4rem;
+    font-weight: 900;
+  }
+  .after_title {
+    font-size: 2.7rem;
+    font-weight: 100;
+  }
+  
+.btn.enroll.latest-btn {
+    background: #F5A608;
+    font-size: 25px;
+    font-weight: 900;
+    padding: .6rem 2rem;
+    color: var(--dark-color);
+    margin-top: 1rem;
+  }
+  
+.active_course_title {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .active_img {
+    width: 35px;
+  }
+  .active_title {
+    font-size: 2rem;
+    font-family: var(--font-bangla);
+    font-weight: 800;
+    color: var(--dark-color);
+    padding-top: 3px;
+  }
+
+  .course-section-title {
+    font-family: var(--font-english);
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+  }
+  
+.connect-icon>ul>li {
+    list-style: none;
+    width: 2rem;
+    height: 2rem;
+    background: var(--secondary-color);
+    border-radius: 50%;
+  }
+  .connect-icon>ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .connect-icon>ul>li>a {
+    background: var(--secondary-color);
+    color: var(--light-color);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .connect-description {
+    font-family: var(--font-bangla);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
   }
   
 
