@@ -958,3 +958,44 @@ h2.section-title {
     color: var(--secondary-color) !important;
   }
   
+.view_left_content {
+    font-family: var(--font-bangla);
+  }
+  .about_course>h4 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+  .learn_what>h4 {
+    color: var(--dark-color);
+    font-weight: 600;
+    line-height: 5rem;
+  }
+  .course_content>h4 {
+    font-weight: 600;
+    color: var(--dark-color);
+    line-height: 4rem;
+  }
+  
+.course_btn {
+    font-size: 20px;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #d9d9d9 !important;
+  }
+  
+  .course_btn:hover {
+    color: var(--secondary-color) !important;
+  }
+
+.course_btn:not(.collapsed)
+{
+    color: var(--secondary-color) !important;
+    background: #26226211 !important;
+}
+
+
+.video_item {
+    background: #f4f4f4;
+    margin-bottom: 1rem;
+    border: 1px solid #d9d9d9 !important;
+    border-radius: 5px !important;
+  }
