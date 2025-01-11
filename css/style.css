@@ -760,10 +760,10 @@ h2.section-title {
 #enroll_section {
     background: var(--secondary-color);
     padding: 1rem;
-    position: fixed;
+    /* position: fixed;
     bottom: 0;
     width: 100%;
-    z-index: 99;
+    z-index: 99; */
 }
 
 .enroll_des {
@@ -827,3 +827,94 @@ h2.section-title {
     outline: none;
     border-right: none;
 }
+
+.checkout_inner {
+    font-family: var(--font-english);
+    padding: 1rem;
+  }
+  .check_in {
+    border: 1px solid var(--secondary-color);
+    box-shadow: none;
+    padding: .8rem 1rem;
+  }
+  .check_in:focus {
+    box-shadow: none;
+    border-color: var(--secondary-color);
+  }
+  .checkout_title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+  .checkout_item {
+    list-style: none;
+    font-size: 16px;
+    border-bottom: 1px dashed var(--secondary-color);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+  .checkout_list>ul {
+    padding: 0;
+  }
+  .checkout_content>h5 {
+    font-size: 17px;
+  }
+  .checkout_price>h5 {
+    font-size: 17px;
+  }
+  
+.checkout_price h4 {
+    font-size: 18px;
+  }
+
+  .checkout_img h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--secondary-color);
+  }
+  .checkout_total h4 {
+    font-size: 18px;
+  }
+  
+.payment_title:before {
+    content: "";
+    position: absolute;
+    background: var(--light-color);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 4px solid var(--secondary-color);
+    left: -20px;
+    top: 2px;
+  }
+  .payment_title {
+    position: relative;
+    left: 15px;
+    font-weight: 700;
+  }
+  
+.pay_contents {
+    background: #d9d9d9;
+    margin-top: 1rem;
+    padding: .8rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    z-index: 9;
+  }
+  .pay_contents:before {
+    position: absolute;
+    content: "";
+    border: 1rem solid #d9d9d9;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    top: 53px;
+    transform: rotate(135deg);
+    left: 56px;
+    z-index: 1;
+  }
+  
+.policy_text {
+    font-size: 12px;
+    padding: 1rem;
+  }
