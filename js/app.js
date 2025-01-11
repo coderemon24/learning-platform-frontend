@@ -1,5 +1,23 @@
 $(document).ready(function (){
   
+  //  apply coupon code
+  
+  $(".coupon_link").click(function () {
+    const couponInner = $(".coupon_inner");
+
+    if (couponInner.is(":visible")) {
+        // If visible, slide it up and add the 'd-none' class after sliding up
+        couponInner.slideUp(function () {
+            couponInner.addClass("d-none");
+        });
+    } else {
+        // If hidden, first remove 'd-none', then slide it down
+        couponInner.removeClass("d-none").hide().slideDown();
+    }
+  });
+
+
+  
   //  shrink navbar on scroll
   $(window).scroll(function(){
     var wscroll = $(this).scrollTop();
@@ -31,6 +49,7 @@ $(document).ready(function (){
   // Set default active control dynamically
   $('.box_control').removeClass('mixitup-control-active'); // Remove active from all
   $('[data-filter="*"]').addClass('mixitup-control-active'); // Add active to default
+  
   
   
 });

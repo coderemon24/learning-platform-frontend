@@ -59,7 +59,9 @@ h2.section-title {
     font-size: 16px;
     font-family: var(--font-english);
 }
-.nav_menus>li>a , .search_icon>i{
+
+.nav_menus>li>a,
+.search_icon>i {
     color: var(--dark-color) !important;
 }
 
@@ -408,17 +410,20 @@ h2.section-title {
     font-weight: 600;
     font-size: 14px !important;
 }
+
 /*=== FAQ's css ===*/
 
 #accordionFlushExample {
     border: 1px solid black;
     font-family: var(--font-bangla);
     color: var(--dark-color) !important;
-  }
-  .accordion-item {
+}
+
+.accordion-item {
     border-bottom: 1px solid black;
-  }
-  .accordion-button {
+}
+
+.accordion-button {
     background: transparent !important;
     border-bottom: 1px solid black;
     outline: none !important;
@@ -427,69 +432,82 @@ h2.section-title {
     padding: 1.5rem 1.5rem;
     color: var(--dark-color) !important;
     box-shadow: none !important;
-  }
-  .accordion-body{
+}
+
+.accordion-body {
     font-weight: 600;
     color: var(--dark-color) !important;
 }
-  .accordion-button:focus {
+
+.accordion-button:focus {
     outline: none !important;
-  }
-  .collapsed {
+}
+
+.collapsed {
     border-bottom: 1px;
-  }
+}
 
 /*=== footer css ===*/
 #footer {
     background: var(--secondary-color);
     color: var(--light-color);
-  }
-  .footer-single {
+}
+
+.footer-single {
     padding: 0.5rem;
     font-family: var(--font-bangla);
     font-weight: 500;
     font-size: 14px;
-  }
-  .footer-logo {
+}
+
+.footer-logo {
     margin-bottom: .7rem;
-  }
-  .f_content {
+}
+
+.f_content {
     font-family: var(--font-english);
     font-size: 14px;
     font-weight: 400;
-  }
-  .social-media>ul {
+}
+
+.social-media>ul {
     display: flex;
     gap: 2rem;
     padding-left: 0;
-  }
-  .social-media>ul>li {
+}
+
+.social-media>ul>li {
     list-style: none;
-  }
-  .social-media>ul>li>a {
+}
+
+.social-media>ul>li>a {
     color: var(--light-color);
-  }
-  
+}
+
 .f_title {
     font-weight: 700;
     font-size: 25px;
     margin-bottom: 20px;
-  }
-  .f_menus>ul>li {
+}
+
+.f_menus>ul>li {
     list-style: none;
     margin-left: -30px;
-  }
-  .f_menus>ul>li>a {
+}
+
+.f_menus>ul>li>a {
     color: var(--light-color);
     text-decoration: none;
     line-height: 30px;
     transition: all .2s linear;
     position: relative;
-  }
-  .f_menus > ul > li > a:hover {
+}
+
+.f_menus>ul>li>a:hover {
     color: rgb(155, 155, 155);
-  }
-  .f_menus>ul>li>a::before {
+}
+
+.f_menus>ul>li>a::before {
     content: "";
     background: white;
     width: 0%;
@@ -498,39 +516,44 @@ h2.section-title {
     bottom: 0;
     left: 0;
     transition: all .2s linear;
-  }
-  .f_menus>ul>li>a:hover::before {
+}
+
+.f_menus>ul>li>a:hover::before {
     width: 100%;
-  }
-  
+}
+
 /*=== courses page css ===*/
 
 .latest_content.content_right {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-.course_card{
+}
+
+.course_card {
     border-radius: 20px;
 }
 
 .latest_content.content_left {
     color: var(--light-color);
     font-family: var(--font-bangla);
-  }
-  .latest_subtitle {
+}
+
+.latest_subtitle {
     font-size: 2.5rem;
     font-weight: 700;
-  }
-  .latest_title {
+}
+
+.latest_title {
     font-size: 4rem;
     font-weight: 900;
-  }
-  .after_title {
+}
+
+.after_title {
     font-size: 2.7rem;
     font-weight: 100;
-  }
-  
+}
+
 .btn.enroll.latest-btn {
     background: #F5A608;
     font-size: 25px;
@@ -538,46 +561,50 @@ h2.section-title {
     padding: .6rem 2rem;
     color: var(--dark-color);
     margin-top: 1rem;
-  }
-  
+}
+
 .active_course_title {
     display: flex;
     gap: 1rem;
     align-items: center;
     margin-bottom: 3rem;
-  }
-  .active_img {
+}
+
+.active_img {
     width: 35px;
-  }
-  .active_title {
+}
+
+.active_title {
     font-size: 2rem;
     font-family: var(--font-bangla);
     font-weight: 800;
     color: var(--dark-color);
     padding-top: 3px;
-  }
+}
 
-  .course-section-title {
+.course-section-title {
     font-family: var(--font-english);
     font-weight: 700;
     font-size: 1.7rem;
     color: var(--secondary-color);
     margin-bottom: 1.5rem;
-  }
-  
+}
+
 .connect-icon>ul>li {
     list-style: none;
     width: 2rem;
     height: 2rem;
     background: var(--secondary-color);
     border-radius: 50%;
-  }
-  .connect-icon>ul {
+}
+
+.connect-icon>ul {
     display: flex;
     gap: 1rem;
     justify-content: center;
-  }
-  .connect-icon>ul>li>a {
+}
+
+.connect-icon>ul>li>a {
     background: var(--secondary-color);
     color: var(--light-color);
     width: 100%;
@@ -587,15 +614,216 @@ h2.section-title {
     justify-content: center;
     text-decoration: none;
     border-radius: 50%;
-  }
-  .connect-description {
+}
+
+.connect-description {
     font-family: var(--font-bangla);
     font-size: 18px;
     font-weight: 600;
     text-align: center;
-  }
-  
+}
+
+/*=== course details page css ===*/
+
+.subtitle {
+    font-family: var(--font-bangla);
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.title.details_title {
+    color: var(--secondary-color);
+    font-size: 36px;
+    line-height: 4rem;
+}
+
+.description.details_description {
+    font-size: 22px;
+}
+
+.video_title {
+    color: var(--secondary-color);
+    font-family: var(--font-english);
+    font-weight: 800;
+    line-height: 5rem;
+    font-size: 34px;
+}
+
+.course_details_video {
+    width: 54rem;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
 
 
+.enroll.buy_btn {
+    border-radius: 8px !important;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 1.2rem;
+}
 
+.description.topic_description {
+    font-size: 17px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.9rem;
+    margin-bottom: 4rem;
+}
 
+.subtitle.next_title {
+    color: var(--secondary-color);
+    margin-bottom: 2rem;
+}
+
+.next_img {
+    width: 4rem;
+}
+
+.next_single_title {
+    font-family: var(--font-bangla);
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+
+.next-description {
+    font-family: var(--font-bangla);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.single_next {
+    padding: 1rem;
+}
+
+.mentor-details {
+    font-family: var(--font-bangla);
+}
+
+.mentor-img {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 24rem;
+    float: right;
+}
+
+.why_wrapper {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.single_next.why_course_single {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.title.module_title {
+    color: var(--secondary-color);
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.subtitle.module_sub {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 4rem;
+}
+
+.description.module_description {
+    font-size: 19px;
+}
+
+.mark {
+    background: rgb(255, 208, 0);
+    padding: 0.2rem .3rem;
+    border-radius: 5px;
+    color: var(--dark-color);
+    font-weight: 600;
+}
+
+.title.guide_title {
+    color: var(--dark-color);
+}
+
+#enroll_section {
+    background: var(--secondary-color);
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.enroll_des {
+    color: var(--light-color);
+    font-size: 22px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.enroll.enroll_btn {
+    background: var(--light-color);
+    color: var(--secondary-color);
+    font-weight: bold;
+    border-radius: 8px;
+    margin-left: 2rem;
+
+}
+
+#details_main {
+    position: relative;
+    overflow: hidden;
+}
+
+.coupon_q {
+    font-size: 20px;
+    font-family: var(--font-english);
+}
+
+.coupon_link {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.coupon_link:hover {
+    text-decoration: underline;
+}
+
+.coupon_btn {
+    width: 200px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background: var(--secondary-color);
+    outline: none;
+    box-shadow: none;
+    font-family: var(--font-english);
+    border: 0;
+}
+
+.coupon_input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: none;
+}
+
+.coupon_input:focus {
+    box-shadow: none;
+    outline: none;
+    border-right: none;
+}
