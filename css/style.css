@@ -918,3 +918,43 @@ h2.section-title {
     font-size: 12px;
     padding: 1rem;
   }
+/*=== course auth view css ===*/
+
+.view_left_content_head_rating>.fa-star {
+    color: orange;
+  }
+  .view_left_content_head_rating {
+    font-family: var(--font-english);
+  }
+  .view_left_content_head>h2 {
+    font-family: var(--font-english);
+    font-size: 30px;
+    color: var(--secondary-color);
+    font-weight: 600;
+  }
+  
+.instructor_info>img {
+    border-radius: 50%;
+  }
+  .instructor_info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+.tab_item {
+    color: var(--dark-color) !important;
+    border: 0 !important;
+  }
+  .tab_item:focus{
+    border: 0 !important;
+    border-bottom: 2px solid var(--secondary-color) !important;
+  }
+
+  .tab_item.active {
+    background: none !important;
+    border: 0 !important;
+    border-bottom: 2px solid var(--secondary-color) !important;
+    color: var(--secondary-color) !important;
+  }
+  
