@@ -1044,7 +1044,7 @@ h2.section-title {
 
 .info_first {
     font-family: var(--font-english);
-    padding: 2.6rem;
+    padding: 2rem;
   }
   .info_first.addi_first{
     background: #f4f4f4;
@@ -1076,4 +1076,12 @@ h2.section-title {
     font-weight: 500;
     font-size: 14px;
   }
-  
+.material_list {
+    padding-left: 1rem;
+    font-family: var(--font-bangla);
+  }
+  .material_list>li>a {
+    text-decoration: none;
+    color: var(--dark-color);
+    font-weight: 500;
+  }
