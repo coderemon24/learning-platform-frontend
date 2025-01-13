@@ -1186,7 +1186,7 @@ h2.section-title {
   .dash-title {
     font-size: 20px;
     color: var(--dark-color);
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
   
 .dash_card {
@@ -1221,4 +1221,25 @@ h2.section-title {
     margin-bottom: 0;
     font-weight: 700;
     color: var(--dark-color);
+  }
+  .card.active_course {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+  }
+  
+.card-img-left {
+    width: 25%;
+  }
+  .review_title>h5 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  
+.card-body.active_body {
+    padding-bottom: 1rem;
+  }
+  .course_active>.progress {
+    margin-bottom: 0rem;
   }
