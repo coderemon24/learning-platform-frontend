@@ -1045,47 +1045,56 @@ h2.section-title {
 .info_first {
     font-family: var(--font-english);
     padding: 2rem;
-  }
-  .info_first.addi_first{
+}
+
+.info_first.addi_first {
     background: #f4f4f4;
-  }
-  .info_title {
+}
+
+.info_title {
     font-size: 1.35rem;
     color: var(--dark-color);
     font-weight: 600;
-  }
+}
 
-  .enroll.learn_continue {
+.enroll.learn_continue {
     border-radius: 10px;
     width: 100% !important;
     display: inherit;
     text-align: center;
-  }
-  .progress {
+}
+
+.progress {
     margin-bottom: 2rem;
     height: 4px;
     background: #d2d2d2;
-  }
-  .enroll_time {
+}
+
+.enroll_time {
     margin-top: 2rem;
-  }
-  .progress-bar {
+}
+
+.progress-bar {
     background: var(--secondary-color);
-  }
-  .right_p, .left_p {
+}
+
+.right_p,
+.left_p {
     font-weight: 500;
     font-size: 14px;
-  }
+}
+
 .material_list {
     padding-left: 1rem;
     font-family: var(--font-bangla);
-  }
-  .material_list>li>a {
+}
+
+.material_list>li>a {
     text-decoration: none;
     color: var(--dark-color);
     font-weight: 500;
-  }
-  
+}
+
 /*=== dashboard css ===*/
 
 .user_img {
@@ -1093,8 +1102,9 @@ h2.section-title {
     height: 130px;
     border-radius: 50%;
     background: rgb(235, 235, 235);
-  }
-  .user_infos {
+}
+
+.user_infos {
     display: flex;
     justify-content: space-between;
     padding-top: 2rem;
@@ -1102,20 +1112,24 @@ h2.section-title {
     border-bottom: 1px solid #c6c6c6;
     align-items: center;
     font-family: var(--font-english);
-  }
-  .user_details {
+}
+
+.user_details {
     display: flex;
     align-items: center;
     gap: 2rem;
-  }
-  .user_greet {
+}
+
+.user_greet {
     font-size: 25px;
     font-weight: 500;
-  }
-  .user_name {
+}
+
+.user_name {
     font-weight: 700;
-  }
-  .notification_icon {
+}
+
+.notification_icon {
     width: 50px;
     height: 50px;
     background: #dbdbdb;
@@ -1126,8 +1140,9 @@ h2.section-title {
     border-radius: 50%;
     color: var(--secondary-color);
     position: relative;
-  }
-  .noti_count {
+}
+
+.noti_count {
     position: absolute;
     top: 4px;
     background: #ed1c24;
@@ -1140,8 +1155,8 @@ h2.section-title {
     border-radius: 50%;
     left: 24px;
     color: var(--light-color);
-  }
-  
+}
+
 .dashboard_sidebar>ul>li>a {
     text-decoration: none;
     padding: 10px 15px 10px 17px;
@@ -1154,52 +1169,62 @@ h2.section-title {
     font-weight: 500;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-  }
-  .dashboard_sidebar>ul>li {
+}
+
+.dashboard_sidebar>ul>li {
     list-style: none;
-  }
-  .dashboard_sidebar>ul {
+}
+
+.dashboard_sidebar>ul {
     padding-left: 0;
-  }
-  .dashboard_sidebar {
+}
+
+.dashboard_sidebar {
     padding-top: 1.2rem;
-  }
-  #dashboard_inner {
+}
+
+#dashboard_inner {
     font-family: var(--font-english);
-  }
-  .dashboard_sidebar>ul>li>a>i {
+}
+
+.dashboard_sidebar>ul>li>a>i {
     font-size: 22px;
     color: var(--secondary-color);
-  }
-  .active {
+}
+
+.active {
     background: var(--secondary-color);
     color: white !important;
-  }
-  .active>i {
+}
+
+.active>i {
     color: white !important;
-  }
-  
+}
+
 .dashboard_content {
     border-left: 1px solid #c6c6c6;
     padding: 2rem;
-  }
-  .dash-title {
+}
+
+.dash-title {
     font-size: 20px;
     color: var(--dark-color);
     margin-bottom: 1.5rem;
-  }
-  
+}
+
 .dash_card {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     padding: 10px 10px;
-  }
-  .dash_card_body {
+}
+
+.dash_card_body {
     padding: 1rem 0rem;
-  }
-  .dash_card_icon {
+}
+
+.dash_card_icon {
     color: var(--secondary-color);
     background: #e6e6e6;
     width: 60px;
@@ -1211,35 +1236,146 @@ h2.section-title {
     font-size: 25px;
     border-radius: 50%;
     margin-bottom: .6rem;
-  }
-  .dash_card_title {
+}
+
+.dash_card_title {
     margin-bottom: 0;
     font-weight: 500;
-  }
-  .dash_card_value {
+}
+
+.dash_card_value {
     font-size: 30px;
     margin-bottom: 0;
     font-weight: 700;
     color: var(--dark-color);
-  }
-  .card.active_course {
+}
+
+.card.active_course {
     display: flex;
     flex-direction: row;
     overflow: hidden;
-  }
-  
+}
+
 .card-img-left {
     width: 25%;
-  }
-  .review_title>h5 {
+}
+
+.review_title>h5 {
     font-size: 18px;
     font-weight: 600;
-  }
-  
-  
+}
+
+
 .card-body.active_body {
     padding-bottom: 1rem;
-  }
-  .course_active>.progress {
+}
+
+.course_active>.progress {
     margin-bottom: 0rem;
+}
+.dashboard_sidebar>ul>li>a:hover {
+    background: #eaeaea;
+  }
+  .active:hover {
+    background: #1f1c53 !important;
+  }
+
+/*=== login css ===*/
+
+.login-form {
+    box-shadow: var(--box-shadow);
+    padding: 2rem 2rem;
+    font-family: var(--font-english);
+    padding-top: 5rem;
+}
+
+#login {
+    padding: 3rem;
+}
+
+.login-form-title>h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.form-control {
+    margin-bottom: 25px;
+    box-shadow: none;
+    padding: 11px 15px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 2px solid var(--secondary-color);
+}
+
+.enroll.login_btn {
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    font-size: 18px;
+}
+
+.form-check {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding-left: 2.35rem;
+}
+
+#flexCheckDefault {
+    width: 1.4rem;
+    height: 1.4rem;
+    border: 1px solid rgb(182, 182, 182);
+    font-size: 22px;
+    margin-top: 0;
+}
+
+#flexCheckDefault:checked {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+#flexCheckDefault:focus {
+    box-shadow: none;
+}
+
+.remember_me {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-english);
+    font-weight: 500;
+    color: var(--dark-color);
+}
+
+.forgot_pass>a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
+.forgot_pass>a:hover {
+    text-decoration: underline;
+}
+
+.register_link.text-center {
+    padding-top: 1.7rem;
+    font-size: 18px;
+}
+
+.register_link.text-center>p>a {
+    color: var(--secondary-color);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.input_label {
+    font-weight: 500;
+    color: var(--dark-color);
+    margin-bottom: .6rem;
+  }
+  .login-form.signup-form {
+    padding: 4rem 2rem;
   }
