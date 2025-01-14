@@ -1379,3 +1379,18 @@ h2.section-title {
   .login-form.signup-form {
     padding: 4rem 2rem;
   }
+  
+.profile_info>div {
+    list-style: none;
+    line-height: 3.5rem;
+    color: #4a4a4a;
+  }
+  .profile_info {
+    padding-left: 0;
+    font-size: 18px;
+    font-family: var(--font-english);
+    font-weight: 500;
+  }
+  .in_info {
+    color: var(--dark-color);
+  }
