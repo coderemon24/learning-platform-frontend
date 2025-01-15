@@ -1394,3 +1394,34 @@ h2.section-title {
   .in_info {
     color: var(--dark-color);
   }
+/*=== setting profile css ===*/
+
+.nav.nav-tabs>li>a {
+    color: var(--dark-color);
+    border: none;
+    position: relative;
+    transition: all .2s linear;
+  }
+  .nav.nav-tabs {
+    border-bottom: 1px solid #ccc;
+  }
+  .nav.nav-tabs>li>a:hover {
+    border: none;
+    /* border-bottom: 2px solid var(--secondary-color); */
+    color: var(--secondary-color);
+  }
+  
+  
+  .nav.nav-tabs > li > a::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 2px;
+    background: var(--secondary-color);
+    bottom: 0;
+    left: 0;
+    transition: all .2s linear;
+  }
+  .nav.nav-tabs>li>a:hover::before {
+    width: 100%;
+  }
