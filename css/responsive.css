@@ -9,4 +9,9 @@
     text-align: center;
     padding: 0rem 1rem;
   }
+  .res_slider {
+    padding-top: 0rem !important;
+    margin-top: -30px;
+    padding-bottom: 5rem;
+  }
 }

@@ -103,11 +103,11 @@ h2.section-title {
 
 /*=== banner css ===*/
 .banner {
-    height: 100vh;
     display: flex;
     align-items: center;
     text-align: left;
-    padding-bottom: 5rem;
+    padding-bottom: 10rem;
+    padding-top: 8rem;
     overflow: hidden;
 }
 
