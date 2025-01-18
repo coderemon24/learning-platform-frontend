@@ -95,6 +95,15 @@ h2.section-title {
 .shrink-nav .navbar-nav>li>a {
     color: var(--dark-color) !important;
     line-height: 24px !important;
+    cursor: pointer;
+}
+.shrink-nav .navbar-nav>li>a:hover {
+    color: var(--primary-color) !important;
+}
+
+.navbar-nav>li>a:hover {
+    color: var(--primary-color) !important;
+    cursor: pointer;
 }
 
 .shrink-nav .fa-search {
@@ -118,34 +127,6 @@ h2.section-title {
     font-weight: 700;
 }
 
-.banner-images {
-    padding-left: 4rem;
-    position: relative;
-    width: 100%;
-    background: orange;
-}
-
-.banner-img {
-    position: absolute;
-}
-
-.banner-img.img-3 {
-    right: 2rem;
-    top: 11rem;
-}
-
-.banner-img.img-2 {
-    right: 5rem;
-}
-
-.banner-img.img-1 {
-    right: 16rem;
-}
-
-.banner-img.img-4 {
-    right: 14rem;
-    top: 19rem;
-}
 
 /*=== our active courses ===*/
 
