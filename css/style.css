@@ -3155,3 +3155,23 @@ h2.section-title {
     margin-top: -7rem;
     background: var(--light-color);
   }
+  
+  /*=== course content css ===*/
+  
+.content_category>h4 {
+    background: #e6e6ea;
+    padding: 20px;
+    font-weight: 500;
+    font-family: var(--font-english);
+  }
+  .content_item {
+    margin-bottom: 0;
+    border-radius: 0 !important;
+    border: none !important;
+  }
+  .content_item button {
+    font-size: 16px;
+  }
+  .content_body{
+    font-size: 13px;
+  }
